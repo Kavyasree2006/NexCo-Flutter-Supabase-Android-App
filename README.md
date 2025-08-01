@@ -114,7 +114,9 @@ Hi, I'm **K. Kavya Sree**, a Computer Science Engineering student at **Rishi MS 
 This project is a practical implementation of what I’ve learned in mobile development, with a strong focus on user security and modern app architecture.
 
 LinkedIn: linkedin.com/in/kavya-sree-katabathina-59a1731b3
+
 GitHub: @Kavyasree2006
+
 Email: katabathina1kavyasree@gmail.com
 
 ---
