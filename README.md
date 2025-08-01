@@ -21,6 +21,4 @@ Nexco is a feature-rich and modern social media application built to connect peo
 
 ## 📷 Screenshots
 
-![login](https://github.com/user-attachments/assets/9ce4b89e-cafe-489e-904f-4fef3e38782e)
-![otp](https://github.com/user-attachments/assets/08c51cb0-3003-47fe-b1e2-228fb225d9a9)
-![home](https://github.com/user-attachments/assets/a5c808c8-15bd-4601-acf0-eb377f231547)
+![login](https://github.com/user-attachments/assets/9ce4b89e-cafe-489e-904f-4fef3e38782e)![otp](https://github.com/user-attachments/assets/08c51cb0-3003-47fe-b1e2-228fb225d9a9)![home](https://github.com/user-attachments/assets/a5c808c8-15bd-4601-acf0-eb377f231547)
