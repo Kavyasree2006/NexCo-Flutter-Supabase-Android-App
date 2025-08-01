@@ -1,58 +1,76 @@
-# NexCo-Flutter-Supabase-Android-App
-Nexco is a feature-rich and modern social media application built to connect people through secure and interactive digital spaces. It includes features like user authentication, posts, likes, comments, real-time chat, and more — offering a seamless social networking experience.
 
-# 🔑 Key Features
+# 📱 NexCo – A Secure Social Media App using Flutter & Supabase
 
-📧 Email Authentication – Sign in securely with email and password
-📲 OTP Verification – Login or register using mobile number and OTP (One-Time Password)
-👤 Profile Management – Add and update name, profile photo, and bio
-📝 Post Creation – Share thoughts with text and optional images
-💬 Engage with Content – Like and comment on posts in real time
-🌙 Modern Dark UI – Clean and responsive interface with dark theme
+**NexCo** is a secure and lightweight social media application developed using **Flutter** for the frontend and **Supabase** as the backend service. This project demonstrates multi-factor authentication (MFA) through both **email-password login** and **OTP-based phone number verification**, offering a reliable and user-friendly experience. Built as part of a real-time academic project, NexCo prioritizes privacy, simplicity, and mobile-first design.
 
-# 🛠️ Tech Stack
+---
 
-Frontend: Flutter (Dart)
-Backend-as-a-Service: Supabase
-Database: PostgreSQL (via Supabase)
-Authentication: Supabase Auth (Email & OTP)
-State Management: GetX
-OTP UI Input: flutter_otp_text_field, pinput
+## 🔑 Key Features
 
-# 📱 Screenshots
-<img width="720" height="1506" alt="image" src="https://github.com/user-attachments/assets/5791f5e5-1e76-4fb9-85da-38ed7901befe" />
-<img width="720" height="1514" alt="image" src="https://github.com/user-attachments/assets/426f54c2-ea2f-40b9-9f66-0bb815c8bd5e" />
-<img width="720" height="1520" alt="image" src="https://github.com/user-attachments/assets/70ac0956-17c4-47e7-90a6-794379d3f587" />
+- 📧 **Email Authentication** – Sign in securely with email and password
+- 📲 **OTP Verification** – Login or register using mobile number and OTP (One-Time Password)
+- 👤 **Profile Management** – Add and update name, profile photo, and bio
+- 📝 **Post Creation** – Share thoughts with text and optional images
+- 💬 **Engage with Content** – Like and comment on posts in real time
+- 🌙 **Modern Dark UI** – Clean and responsive interface with dark theme
 
-## 🔧 Setup Instructions
+---
 
-### ✅ Prerequisites
+## 🛠️ Tech Stack
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- Android Studio / VS Code
-- Supabase account ([Create here](https://supabase.io))
+- **Frontend:** Flutter (Dart)
+- **Backend-as-a-Service:** Supabase
+- **Database:** PostgreSQL (via Supabase)
+- **Authentication:** Supabase Auth (Email & OTP)
+- **State Management:** GetX
+- **OTP UI Input:** `flutter_otp_text_field`, `pinput`
 
-### 🔌 1. Clone the Repository
+---
 
+## 📱 Screenshots
+
+<p align="center">
+  <img src="Outtput/login.jpeg" alt="Login" width="200"/>
+  &nbsp;&nbsp;
+  <img src="Outtput/otp.jpeg" alt="OTP" width="200"/>
+  &nbsp;&nbsp;
+  <img src="Outtput/home.jpeg" alt="Home" width="200"/>
+</p>
+
+
+---
+
+## 🧪 How to Run the Project
+
+1. **Clone the Repository**
+```bash
 git clone https://github.com/yourusername/nexco.git
 cd nexco
+```
 
-## Install Dependencies
-
+2. **Install Dependencies**
+```bash
 flutter pub get
+```
 
-## Set Up Environment Variables
+3. **Set Up Environment Variables**
 
-Replace ur Supabase url and supabase key in .env file in the root directory:
-
+Replace ur Supabase url and supabase key in `.env` file in the root directory:
+```
 SUPABASE_URL=your-supabase-url
 SUPABASE_ANON_KEY=your-supabase-anon-key
+```
 
-## Run the App
-
+4. **Run the App**
+```bash
 flutter run
+```
+
+---
 
 ## 📦 Dependencies Used
+
+```yaml
 cupertino_icons: ^1.0.8
 get: ^4.7.2
 get_storage: ^2.1.1
@@ -66,37 +84,40 @@ pinput: ^3.0.0
 flutter_otp_text_field: ^1.1.0+2
 jiffy: ^6.4.3
 intl: ^0.20.2
+```
 
-##🔐 Why Multi-Factor Authentication?
+---
+
+## 🔐 Why Multi-Factor Authentication?
+
 Instead of relying solely on passwords, NexCo implements:
+- ✅ **Email Verification** – Ensures trusted access to the platform
+- ✅ **Phone Number OTP Login** – Adds an extra layer of identity validation
 
-✅ Email Verification – Ensures trusted access to the platform
-✅ Phone Number OTP Login – Adds an extra layer of identity validation
 This makes the app more secure and user-friendly, especially for mobile-first users.
 
-##🌱 Future Enhancements
+---
 
-🔒 Biometric authentication (Fingerprint/Face ID)
-💬 Real-time chat system
-🔔 In-app and push notifications
-🌐 iOS and web app support
-🧑‍💻 Admin dashboard for user/content moderation
+## 🌱 Future Enhancements
 
-##👩‍💻 About the Developer
+- 🔒 Biometric authentication (Fingerprint/Face ID)
+- 💬 Real-time chat system
+- 🔔 In-app and push notifications
+- 🌐 iOS and web app support
+- 🧑‍💻 Admin dashboard for user/content moderation
 
-Hi, I'm K. Kavya sree, a Computer Science Engineering student at Rishi MS Institute of Engineering, Hyderabad.
+---
+
+## 👩‍💻 About the Developer
+
+Hi, I'm **K. Divyasri**, a Computer Science Engineering student at **Rishi MS Institute of Engineering, Hyderabad**.  
 This project is a practical implementation of what I’ve learned in mobile development, with a strong focus on user security and modern app architecture.
 
-LinkedIn: linkedin.com/in/kavya-sree-katabathina-59a1731b3
-GitHub: @Kavyasree2006
-Email: katabathina1kavyasree@gmail.com
+---
 
-##📚 References
+## 📚 References
 
-Supabase Documentation
-Flutter Documentation
-Dart Language Tour
-PostgreSQL
-
-
-
+- [Supabase Documentation](https://supabase.com/docs)
+- [Flutter Documentation](https://flutter.dev)
+- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
+- [PostgreSQL](https://www.postgresql.org/)
